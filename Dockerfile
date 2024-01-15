@@ -1,4 +1,4 @@
-FROM azul/zulu-openjdk:17-latest
+FROM amazoncorretto:8-alpine-jdk
 
 COPY build/libs/amti-back-1.0.jar app.jar
 
